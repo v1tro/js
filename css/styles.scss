@@ -1,0 +1,41 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import "colours";
+//hovers
+.phones:hover {
+    
+}
+//reset
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Antic Slab', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+//banner
+.banner { 
+     text-align: center;
+    justify-content: space-around;
+    background-color: $rosa;
+    width: auto;
+    height: 35px;
+    padding-top: 5px;
+    font-size: 15px;
+    
+    .phones{ 
+        color: #fff;
+        cursor: pointer;
+    }
+    i {
+        color: $verde;
+        padding-right: 5px;
+        
+    }
+    p {
+        cursor: pointer;
+        color: #fff;
+    }
+    
+}
