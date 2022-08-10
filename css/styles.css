@@ -1,5 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
-* {
+.phones:hover * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -29,4 +29,29 @@
 .banner p {
   cursor: pointer;
   color: #fff;
+}
+
+nav {
+  background-color: #f8d9ce;
+}
+nav form {
+  padding-right: 400px;
+}
+nav .cart {
+  padding-right: 50px;
+}
+
+.logo {
+  height: 100px;
+}
+
+aside {
+  width: 12vw;
+  height: 100vh;
+  background-color: #d2e9a3;
+}
+
+main {
+  padding: 5% 8%;
+  background-color: #d2e9a3;
 }/*# sourceMappingURL=styles.css.map */
